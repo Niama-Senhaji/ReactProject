@@ -1,0 +1,93 @@
+/* styles.css */
+
+/* Style pour le label principal */
+.section-Label {
+    font-size: 1.6em; 
+    font-weight: 'normal';
+}
+
+/* Style pour les labels des options */
+.Label-option {
+    font-size: 0.9em; 
+}
+
+/* Style pour le formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+/* Style pour les labels */
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Style pour les champs de saisie */
+input, textarea, select {
+    margin-bottom: 12px;
+    padding: 10px;
+    border: 1.2px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Style pour le bouton de soumission */
+button {
+    padding: 10px;
+    background-color: #81508f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #62396e;
+}
+
+/* Style pour les champs requis */
+.required::after {
+    content: " *";
+    color: red;
+}
+
+/* Style pour le message d'alerte de succès */
+#successMessage {
+    display: none;
+    background-color: #218838;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lang-level {
+    display: inline-block; /* Pour que les étoiles aient une largeur fixe */
+    width: 100px; /* Ajustez la largeur selon vos préférences */
+  }
+
+  
+.underline {
+    text-decoration: underline;
+  }
+  
+.checkbox-option {
+    display: block;
+    margin-bottom: 0.5rem; /* Espace entre chaque option */
+  }
+  
+
+.text-5xl {
+    font-size: 20rem; /* Ajustez la taille de la police selon vos besoins */
+  }
+  
+
+   
