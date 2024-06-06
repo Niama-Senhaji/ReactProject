@@ -9,8 +9,4 @@ une discipline remarquable,me permettant de relever les défis avec déterminati
             </p>
         </section>
     )
-
-
-
-
 }

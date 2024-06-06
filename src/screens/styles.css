@@ -90,4 +90,13 @@ button:hover {
   }
   
 
-   
+  .custom-form {
+    background-color: #f4f4f49e; /* Changez cette couleur selon vos besoins */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  body {
+    background-color: #f1eaea; /* Changez cette couleur selon vos besoins */
+    font-family: 'Arial, sans-serif'; /* Facultatif : Changez la police selon vos besoins */
+  }

@@ -190,6 +190,7 @@ const Formulaire = () => {
           borderRadius: '10px',
           boxShadow: '0 0 50px rgba(0, 0, 0, 0.3)',
         }}
+        className="custom-form"
       >
         <label
           htmlFor="name"
